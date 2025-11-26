@@ -1,0 +1,89 @@
+* {
+  color: #abc4ed;
+  background-color: #121212;
+  margin-left: 12px;
+}
+
+.profile-picture img{
+  margin-left: 50%;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.socials-LinkedIn {
+  list-style-image: url(../images/LinkedIn.png);
+}
+
+.link-LinkedIn {
+  text-decoration: none;
+}
+
+.link-LinkedIn:hover {
+  text-decoration: underline;
+}
+
+.socials-GitHub {
+  list-style-image: url(../images/GitHub.jpg);
+}
+
+.link-GitHub:hover {
+  text-decoration: underline;
+}
+
+.link-GitHub {
+  text-decoration: none;
+}
+
+.socials-Vercel {
+  list-style-image: url(../images/Vercel-Logo.jpg);
+}
+
+.link-Vercel:hover {
+  text-decoration: underline;
+}
+
+.link-Vercel {
+  text-decoration: none;
+}
+
+.projects-myanimelist {
+  margin-top: 10px;
+  list-style-image: url(../images/solo-leveling-icon.jpg);
+}
+
+.link-myanimelist {
+  text-decoration: none;
+}
+
+.link-myanimelist:hover {
+  text-decoration: underline;
+}
+
+
+.projects-reviews {
+  margin-top: 10px;
+  list-style-image: url(../images/solo-leveling-icon.jpg);
+}
+
+.link-reviews {
+  text-decoration: none;
+}
+
+.link-reviews:hover {
+  text-decoration: underline;
+}
+
+
+.about-me {
+  text-align: center;
+}
+
+.about-me-description {
+  text-align: center;
+}
