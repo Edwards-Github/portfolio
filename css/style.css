@@ -1,5 +1,6 @@
 * {
-  color: #abc4ed;
+  color: #fff;
+  /*color: #abc4ed;*/
   background-color: #121212;
   margin-left: 12px;
 }
@@ -21,6 +22,7 @@
 }
 
 .link-LinkedIn {
+  color: #abc4ed;
   text-decoration: none;
 }
 
@@ -37,11 +39,17 @@
 }
 
 .link-GitHub {
+  color: #abc4ed;
   text-decoration: none;
 }
 
 .socials-Vercel {
   list-style-image: url(../images/Vercel-Logo.jpg);
+}
+
+.socials-Vercel summary{
+  margin-left: 0px;
+  color: #abc4ed;
 }
 
 .link-Vercel:hover {
@@ -58,13 +66,27 @@
 }
 
 .link-myanimelist {
+  color: #abc4ed;
   text-decoration: none;
+  margin-left: 25px;
 }
 
 .link-myanimelist:hover {
   text-decoration: underline;
 }
 
+.project-description {
+  color: #fff;
+}
+
+.project-description a {
+  margin-left: 0;
+  text-decoration: none;
+}
+
+.project-description a:hover {
+  text-decoration: underline;
+}
 
 .projects-reviews {
   margin-top: 10px;
@@ -72,7 +94,9 @@
 }
 
 .link-reviews {
+  color: #abc4ed;
   text-decoration: none;
+  margin-left: 25px;
 }
 
 .link-reviews:hover {
